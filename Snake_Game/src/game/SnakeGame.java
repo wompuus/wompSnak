@@ -1,4 +1,4 @@
-package game;
+package Snake_Game.src.game;
 
 
 public class SnakeGame{
