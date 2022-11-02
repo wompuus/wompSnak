@@ -1,4 +1,4 @@
-package game;
+package Snake_Game.src.game;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -23,7 +23,7 @@ public class GamePanel extends JPanel implements ActionListener{
 	Timer timer;
 	Random random;
 	
-	GamePanel(){
+	public GamePanel() {
 		random = new Random();
 		this.setPreferredSize(new Dimension(SCREEN_WIDTH, SCREEN_HEIGHT));
 		this.setBackground(Color.black);
